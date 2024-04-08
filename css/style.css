@@ -1,0 +1,74 @@
+body{
+    font-family: sans-serif;
+    
+    
+}
+.container-fluid{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.row-fluid{
+    display: grid;
+    border-width: 0;
+    
+} 
+
+.row{
+    width: 500px;
+    background-color: lightsalmon;
+}
+
+/* div {
+    border: solid;
+    
+} */
+
+
+
+
+@media only screen and (min-width: 100px) {
+    /* For tablets: */
+
+    /* this will change the container class background to red when tablet*/
+
+    .row-fluid {
+        background-color: lightblue;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: will change the container class to orange*/
+
+    .row-fluid {
+        background-color: lightgreen;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    /* For desktop: will change the container class to orange*/
+
+    .row-fluid {
+        background-color: lightpink;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    /* For desktop: will change the container class to orange*/
+
+    .row-fluid {
+        background-color: lightyellow;
+    }
+}
+
+
+ @media only screen and (orientation: landscape) {
+    /* this will change the background to light blue when view is landscape */
+.body{
+        background-color: lightgray;
+}
+    
+}
+
+
